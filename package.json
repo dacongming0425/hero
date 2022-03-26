@@ -10,7 +10,9 @@
   },
   "private": true,
   "dependencies": {
+    "@alauda/ui": "^6.3.5",
     "@angular/animations": "~13.1.0",
+    "@angular/cdk": "^13.3.1",
     "@angular/common": "~13.1.0",
     "@angular/compiler": "~13.1.0",
     "@angular/core": "~13.1.0",
