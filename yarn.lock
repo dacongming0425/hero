@@ -189,7 +189,7 @@
     "symbol-observable" "4.0.0"
     "uuid" "8.3.2"
 
-"@angular/common@^13.0.0 || ^14.0.0-0", "@angular/common@>=13.0.0", "@angular/common@~13.1.0", "@angular/common@13.1.1":
+"@angular/common@^13.0.0", "@angular/common@^13.0.0 || ^14.0.0-0", "@angular/common@>=13.0.0", "@angular/common@~13.1.0", "@angular/common@13.1.1":
   "integrity" "sha512-FQwRZ1XgTH2PbPjBmq2jAZzETVNX9yWQt21MuNGtokC7V4eS0NYlFIDbhy3UPWCzRgd3+P7P4+HdX15VxCjf9g=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-13.1.1.tgz"
   "version" "13.1.1"
@@ -220,7 +220,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^13.0.0 || ^14.0.0-0", "@angular/core@>=13.0.0", "@angular/core@~13.1.0", "@angular/core@13.1.1":
+"@angular/core@^13.0.0", "@angular/core@^13.0.0 || ^14.0.0-0", "@angular/core@>=13.0.0", "@angular/core@~13.1.0", "@angular/core@13.1.1":
   "integrity" "sha512-oLGKgzUbHqte/q7EokOJWUiXAtBjwuZM6c9Or2a7WDJNeImQilxk5qy91RPSbP8FhOBysebqAayrfiCYexlShg=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-13.1.1.tgz"
   "version" "13.1.1"
@@ -1730,6 +1730,13 @@
     "json-schema-traverse" "^1.0.0"
     "require-from-string" "^2.0.2"
     "uri-js" "^4.2.2"
+
+"angular-in-memory-web-api@^0.13.0":
+  "integrity" "sha512-rK7k/Ip3TdjOIONZRsEMc8vHfwdESEwfknfX5gIr4QHcMzZ92BPcsILbtH2xr2XVusjePK/bwEc6RMWz3X8wUQ=="
+  "resolved" "https://registry.npmjs.org/angular-in-memory-web-api/-/angular-in-memory-web-api-0.13.0.tgz"
+  "version" "0.13.0"
+  dependencies:
+    "tslib" "^2.3.0"
 
 "ansi-colors@4.1.1":
   "integrity" "sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA=="
