@@ -1,4 +1,4 @@
-
+/* HeroSearch private styles */
 
 label {
     display: block;
@@ -6,12 +6,14 @@ label {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
+    margin-left: 40px;
   
   }
   input {
     padding: .5rem;
     width: 100%;
     max-width: 600px;
+    margin-left: 40px;
     box-sizing: border-box;
     display: block;
   }
@@ -34,11 +36,13 @@ label {
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    margin-left: 40px;
   }
   
   .search-result li a:hover {
     background-color: #435A60;
     color: white;
+    margin-left: 40px;
   }
   
   ul.search-result {
