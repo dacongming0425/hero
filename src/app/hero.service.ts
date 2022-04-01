@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Hero } from './Hero';
-import { HEROS } from './mock-heros';
 import { Observable, of } from 'rxjs';
 import { MessageService } from './message.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -61,7 +60,7 @@ export class HeroService {
     }
     searchHeroes(term: string): Observable<Hero[]> {
       if (!term.trim()) {
-        // if not search term, return empty hero array.
+     
         return of([]);
       }
       return this.http.get<Hero[]>(`${this.heroesUrl}/?name=${term}`).pipe(
